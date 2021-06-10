@@ -1,0 +1,17 @@
+installing django setup
+- django install 
+- pip shell
+- django-rest-framework
+- django-cors-headers for security
+- djoser authentication and user token and end points of api
+- pillow resize images and python image library
+- stripe
+- django admin start-project project_name
+- in settings.py cors_allowed_origins = ["https://localhost:8080"]
+- middleware 'corsheaders.middleware.CorsMiddleware'
+- add the dependencies in installed_apps as rest_framework,rest-framework.authtoken,corsheader,djoser
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser give username and password 
+- create an app model and view for mobile products
+- serializers and views for products
